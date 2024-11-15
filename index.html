@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing - 1</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script src="https://kit.fontawesome.com/946a87431d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+
+    <!-- ---------------Navigation Menu --------------- -->
+    <nav>
+      <div class="nav-header">
+          <div class="nav-logo">
+              <img src="./assets/k-logo.jpg" alt="" class="bg-logo">
+          </div>
+          <div class="nav-menu-btn" id="menu-btn"><i class="fa-solid fa-bars"></i></div>
+      </div>
+      <div class="nav-links" id="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#client">Client</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </div>
+  </nav>
+
+  <!-- ---------------Header Page --------------- -->
+  <section class="header-container">
+      <div class="header-img">
+          <img src="./assets/south-facing.jpg" alt="header image">
+      </div>
+      <div class="header-content">
+          <h2>Krishi Civil Engineer Agency</h2> 
+          <h1>
+              Transform Ideas <span class="h1-span-2">into</span> <span class="h1-span-1">Blue</span>Prints
+           </h1>
+          <!-- <p>Something about gvmc and vuda?</p> -->
+          <div class="header-btn">
+              <button class="btn"><a href="#contact">Learn more</a></button>
+          </div>
+      </div>
+      <div class="2"></div>
+  </section>
+
+  <!-- ---------------About Us Page --------------- -->
+  <section class="about-us" id="about">
+    
+    <div class="about-container">
+      <div class="about-left">
+        <h2 class="about-title">Who are we?</h2>
+        <p>Krishi Engineers is a proprietary concern, run by Er. C.S.Sharma, who is a
+          Chartered Civil Engineer with 34 years of experience in Designing, Planning,
+          Execution, Construction and Supervision in field of Apartments, Layouts and Industries.
+          Total Station Surveying for plots, sites and agricultural lands. Regularization of lands &
+          Change of Land use etc. Liaison with Govt. departments for Approvals.
+          We offer our professional consultancy to take care of the Civil Engineering needs.</p>
+          
+          <div class="proof">
+            <h1>Certified from:</h1>
+            <h2 id="main-client">GVMC</h2>
+            <h2 id="main-client">VMRDA</h2>
+          </div>
+      </div>
+      <div class="about-right">
+      <!-- <img src="./assets/engNobg.png" alt=""> -->
+      <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+    <dotlottie-player src="https://lottie.host/22630ddc-ce54-4a73-b1cf-aaad51e6f012/wqFzyCF9XH.json" class="svg" background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay></dotlottie-player>
+    </div>
+    
+  </section>
+
+  <!-- ---------------Client Page --------------- -->
+  <section id="client">
+      <div class="clients">
+          <h1 class="client-title">Our   Clients</h1>
+          <ol class = client-list>
+              <li class="client-card card-up">
+                  <!-- <div class="icon"><i class='fas fa-user'></i></div> -->
+                  <div class="title">APGBC Ltd.</div>
+                  <!-- <div class="description">APGBC Ltd.</div> -->
+              </li>
+              <li class="client-card card-up">
+                  <!-- <div class="icon"><i class='fas fa-user'></i></div> -->
+                  <div class="title">VSEZ</div>
+                  <!-- <div class="description">VSEZ</div> -->
+              </li>
+              <li class="client-card card-up">
+                  <!-- <div class="icon"><i class='fas fa-user'></i></div> -->
+                  <div class="title">GVMC</div>
+                  <!-- <div class="description">GVMC</div> -->
+              </li>
+              <li class="client-card card-down">
+                  <!-- <div class="icon"><i class='fas fa-user'></i></div> -->
+                  <div class="title">VSKP PORT TRUST</div>
+                  <!-- <div class="description">VSKP PORT TRUST</div> -->
+              </li>
+              <li class="client-card card-down">
+                  <!-- <div class="icon"><i class='fas fa-user'></i></div> -->
+                  <div class="title">HETERO LABS Ltd.</div>
+                  <!-- <div class="description">HETERO LABS Ltd.</div> -->
+              </li>
+              <li class="client-card card-down">
+                  <!-- <div class="icon"><i class='fas fa-user'></i></div> -->
+                  <div class="title">AECOM</div>
+                  <!-- <div class="description">AECOM</div> -->
+              </li>
+          </ol>
+      </div>
+      
+  </section>
+
+  <!-- ---------------Contact Page --------------- -->
+  <section id="contact">
+  
+        <h1 class="section-header">Contact</h1>
+        
+        <div class="contact-wrapper">
+        
+        <!-- Left contact page --> 
+          
+          <form id="contact-form" class="form-horizontal" role="form">
+             
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+              </div>
+            </div>
+      
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+              </div>
+            </div>
+      
+            <div class="form-group">
+              <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+
+            </div>
+            
+            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+              <div class="alt-send-button">
+                <i class="fas fa-paper-plane"></i><span class="send-text">SEND</span>
+              </div>
+            
+            </button>
+            
+          </form>
+          
+        <!-- Right contact page --> 
+          
+            <div class="direct-contact-container">
+      
+              <ul class="contact-list">
+                <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Visakhapatnam,AP</span></i></li>
+                
+                <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:+91 9848139088" title="Give me a call">(+91)9848139088</a></span></i></li>
+                
+                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">krishi_eng@gmail.com</a></span></i></li>
+                
+              </ul>
+      
+              <hr>
+              <ul class="social-media-list">
+                <li><a href="tel:+91 9848139088" target="_blank" class="contact-icon">
+                  <i class="fa fa-phone fa" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="tel:+91 9848139088" target="_blank" class="contact-icon">
+                  <i class="fa fa-phone fa" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="tel:+91 9848139088" target="_blank" class="contact-icon">
+                  <i class="fa fa-phone fa" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="tel:+91 9848139088" target="_blank" class="contact-icon">
+                  <i class="fa fa-phone fa" aria-hidden="true"></i></a>
+                </li>       
+              </ul>
+              <hr>
+      
+              <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+              
+            </div>
+          
+        </div>
+        
+  </section>  
+        
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+      <script src="./script.js"></script> 
+    </body>
+</html>
